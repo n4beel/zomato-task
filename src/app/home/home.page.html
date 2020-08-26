@@ -1,0 +1,38 @@
+<ion-app  >
+  <ion-header>
+    <ion-toolbar color="dark">
+      <ion-title>ZOMATO API TASK</ion-title>
+    </ion-toolbar>
+  </ion-header>
+  
+
+<ion-content  color="light" >
+
+
+ 
+  <div class="pending">
+    <ion-card class="welcome-card" color="light">
+      <img src="/assets/xord.jpg" alt=""/>
+      <ion-card-title [ngStyle]="{'color':'blue'}">Zomato API Consumption Project<br><br> </ion-card-title>
+      <ion-card-subtitle color="tertiary">Xord is a blockchain solution provider company. At Xord, We develop decentralized solutions making world trustworthy & secure place, using blockchain tech.<br></ion-card-subtitle>
+        
+    </ion-card>
+    <br>
+  </div>  
+<div class="pending">
+  <ion-button expand="block"  [routerLink]="['/components']">Components  </ion-button>
+  <ion-button expand="block" [routerLink]="['/searching']">Searching</ion-button>
+  <ion-button expand="block"  [routerLink]="['/cards']" >Cards </ion-button>
+  <ion-button expand="block"  [routerLink]="['/carousel']">Gallary </ion-button>
+</div>
+
+</ion-content>
+
+<div collapse="condense">
+  <ion-footer >
+    <ion-toolbar color="dark">
+      <ion-title  >Internship Task</ion-title>
+    </ion-toolbar>
+  </ion-footer>
+</div>
+</ion-app>
